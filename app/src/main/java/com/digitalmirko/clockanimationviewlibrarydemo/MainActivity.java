@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                // Using switch to go through a number of time movements when the button is clicked
                 switch (counter) {
                     case 0:
                         clockAnimationView.animateToTime(2, 30);
